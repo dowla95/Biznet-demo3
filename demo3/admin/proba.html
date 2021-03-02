@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=9" >
+<meta name="author" content="webdizajne.rs" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="robots" content="index, follow" />
+
+<title>page_add</title>
+
+<meta name="description" content="" />
+
+<meta name="Keywords" content="" />
+<link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+<script src="http://localhost/amav2/admin/js/jquery.min1.7.1.js"></script>
+<link rel="stylesheet" href="../css/style.php">
+<link href="http://www.obrenovac.biz/dev/admin/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://www.obrenovac.biz/dev/admin/css/default.css" rel="stylesheet">
+<link rel="stylesheet" href="http://localhost/amav2/colorbox/colorbox1.css" />
+<link rel="stylesheet" href="http://localhost/amav2/fonts/pro/css/fontawesome-all.min.css" />
+<link rel="stylesheet" href="http://www.obrenovac.biz/dev/admin/css/responsive.css">
+<link href="http://localhost/amav2/admin/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://localhost/amav2/admin/js/js.js"></script> 
+<script src="http://localhost/amav2/colorbox/jquery.colorbox.js"></script>          
+<script type="text/javascript">
+ obnovi_sessiju();
+ </script>
+ 
+
+  <link rel="stylesheet" type="text/css" href="multiselectUI/jquery.multiselect.css" />
+<link rel="stylesheet" type="text/css" href="multiselectUI/jquery.multiselect.filter.css" />
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="multiselectUI/jquery.multiselect.js"></script>
+  <script type="text/javascript" src="multiselectUI/jquery.multiselect.filter.js"></script>  
+  <script>
+  $(function() {
+   $('#datepicker').datepicker({ dateFormat: 'yy-mm-dd' }).val();
+  });
+  </script>
+<!-- Beginning of compulsory code below -->
+<link href="http://www.obrenovac.biz/dev/admin/css/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://www.obrenovac.biz/dev/admin/css/default.advanced.css" media="screen" rel="stylesheet" type="text/css" />
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://localhost/amav2/admin/js/jquery/jquery.dropdown.js"></script>
+<![endif]-->
+ <script>
+	$(document).ready(function(){ 
+//  	$(".iframe").colorbox({iframe:true, width:"97%", height:"300px"});
+    $(".iframes").colorbox({iframe:true, width:"330px", height:"300px"});
+    $(".iframes1").colorbox({iframe:true, width:"90%", height:"800px"});
+    $(".iframe_cal").colorbox({iframe:true, width:"300px", height:"450px"});
+      $(".inline").colorbox({
+        inline: true,
+        width: "600px"
+    });
+$(".mselect").multiselect({
+   height: 400
+}).multiselectfilter();
+     })
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".ui-tabs").tabs();
+	});
+</script>
+<script>
+$(function() {
+$('.selectG1').fSelect({
+        placeholder: ' --- ',
+        searchText: "Pronadji",
+        overflowText: "Izabrali ste {n}",
+        });
+});
+
+</script>
+</head>
+<body><div class="header_sivo">
+  
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12"> 
+			<nav id="menu">
+			  <label for="tm" id="toggle-menu">Navigacija <span class="drop-icon"><i class="fas fa-caret-down"></i></span></label>
+			  <input type="checkbox" id="tm">
+			  <ul class="main-menu clearfix">
+				<li><a href="./" rel="http://localhost/amav2/admin" id="home">Admin</a></li>
+				<li><a href="#">Stranice
+					<span class="drop-icon"><i class="fas fa-caret-down"></i></span>
+					<label title="Toggle Drop-down" class="drop-icon" for="sm3"><i class="fas fa-caret-down"></i></label>
+					</a>
+					<input type="checkbox" id="sm3">
+					<ul class="sub-menu">
+						<li><a href='http://localhost/amav2/admin/index.php?base=admin&page=page_add&id_cat=0'>Upis - izmena stranica</a></li>	    
+						<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=menus">Meniji</a></li>
+						<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=models">Modeli stranica</a></li>
+<!--
+						<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=stavke">Stavke</a></li>
+-->
+					</ul>
+				</li>
+				  <input type="checkbox" id="sm1">
+				<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=subscribers">Vesti pr (0)</a></li>
+				<li><a href="#">Podešavanja
+					<span class="drop-icon"><i class="fas fa-caret-down"></i></span>
+					<label title="Toggle Drop-down" class="drop-icon" for="sm2"><i class="fas fa-caret-down"></i></label>
+					</a>
+					<input type="checkbox" id="sm2">
+					<ul class="sub-menu">
+						<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=podesavanjaAA">Glavne postavke</a></li>
+						<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=moduli">Color šema</a></li>
+						<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=izgled">Postavke izgleda</a></li>
+						<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=language_words">Sistemski izrazi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Slike
+					<span class="drop-icon"><i class="fas fa-caret-down"></i></span>
+					<label title="Toggle Drop-down" class="drop-icon" for="sm4"><i class="fas fa-caret-down"></i></label>
+					</a>
+					<input type="checkbox" id="sm4">
+					<ul class="sub-menu">
+						<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=subslike&idupisa=0&tip=2">Slike slider</a></li>
+						<li><a href="http://localhost/amav2/admin/index.php?base=admin&page=subslike&idupisa=0&tip=3">Slike nezavisne</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Sadržaj po tipovima
+					<span class="drop-icon"><i class="fas fa-caret-down"></i></span>
+					<label title="Toggle Drop-down" class="drop-icon" for="sm5"><i class="fas fa-caret-down"></i></label>
+					</a>
+					<input type="checkbox" id="sm5">
+					<ul class="sub-menu">
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_content0">Svi tipovi</a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_content">Sadržaj osnovni tip<span><img src="images/tip0.jpg" alt="Tip osnovni"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_content1">Sadržaj tip 1<span><img src="images/tip1.jpg" alt="Tip 1"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_content2">Sadržaj tip 2<span><img src="images/tip2.jpg" alt="Tip 2"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_content3">Sadržaj tip 3<span><img src="images/tip3.jpg" alt="Tip 3"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_content4">Sadržaj tip 4<span><img src="images/tip4.jpg" alt="Tip 4"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_content5">Sadržaj tip 5<span><img src="images/tip5.jpg" alt="Tip 5"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_content6">Sadržaj tip 6<span><img src="images/tip6.jpg" alt="Tip 6"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_content7">Sadržaj tip 7<span><img src="images/tip7.jpg" alt="Tip 7"></span></a></li>
+					</ul>
+				</li>
+				
+				
+				
+				<li><a href="#">Upiši sadržaj
+					<span class="drop-icon"><i class="fas fa-caret-down"></i></span>
+					<label title="Toggle Drop-down" class="drop-icon" for="sm5"><i class="fas fa-caret-down"></i></label>
+					</a>
+					<input type="checkbox" id="sm5">
+					<ul class="sub-menu">
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_add_content&tip=id_page&idp=">Sadržaj osnovni tip<span><img src="images/tip0.jpg" alt="Tip osnovni"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_add_content1&tip=id_page&idp=">Sadržaj tip 1<span><img src="images/tip1.jpg" alt="Tip 1"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_add_content2&tip=id_page&idp=">Sadržaj tip 2<span><img src="images/tip2.jpg" alt="Tip 2"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_add_content3&tip=id_page&idp=">Sadržaj tip 3<span><img src="images/tip3.jpg" alt="Tip 3"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_add_content4&tip=id_page&idp=">Sadržaj tip 4<span><img src="images/tip4.jpg" alt="Tip 4"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_add_content5&tip=id_page&idp=">Sadržaj tip 5<span><img src="images/tip5.jpg" alt="Tip 5"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_add_content6&tip=id_page&idp=">Sadržaj tip 6<span><img src="images/tip6.jpg" alt="Tip 6"></span></a></li>
+					<li class="popup"><a href="http://localhost/amav2/admin/index.php?base=admin&page=page_add_content7&tip=id_page&idp=">Sadržaj tip 7<span><img src="images/tip7.jpg" alt="Tip 7"></span></a></li>
+					</ul>
+				</li>
+				
+				
+				
+				
+ 				<li class='float-right'><a title="Odjavi se" href="http://localhost/amav2/admin/logout.php"><i class="far fa-sign-out-alt"></i></a></li>
+				<li class='float-right'><a title="Idi na sajt" href="http://localhost/amav2" target="_blank"><i class="far fa-browser"></i></a></li>
+			  </ul>
+			</nav>
+		</div>
+	</div>
+</div>
+ 
+</div><div class="container-fluid">
+
+ <div class="left_right_white">
+ <div id="modules">
+
+<div class='row'>
+<div class='naslov_smestaj_padd col-12'>
+<h1 class="border_ha">Upis novih stranica/podstranica</h1>
+</div>
+<div class='col-12 mb-10'>
+<b style='float:left;font-size:15px;text-transform:uppercase;display:block;background:#218FBF;padding:5px;'> <a href="#inline_content" class='inline'><span style='padding:6px 10px;font-size:15px;color:white;'>UPISI NOVU STRANICU</span></a></b>
+</div>
+</div>
+
+<script> 
+function gog(id)
+{
+if(id>0)
+window.location="http://localhost/amav2/admin/index.php?base=admin&page=page_add&id="+id;
+else
+window.location="http://localhost/amav2/admin/index.php?base=admin&page=page_add";
+}
+function delme(id)
+{
+var answer = confirm("Brišete ovu stranicu, sve podstranice, sve tekstove, slike i fajlove u vezi sa njom?");
+if(answer)
+{
+window.location="http://localhost/amav2/admin/index.php?base=admin&page=page_add&id="+id+"&obrisi_stranice=1&id_cat=0";
+}
+}
+    $(document).ready(function(){
+    $(".ul").sortable({ 
+      stop: function(){
+        qString = $(this).sortable("serialize");
+      }
+    });
+        //$(".ul").disableSelection();
+$('.rem').live('click', function() {
+ 
+  $( this ).parent().remove();
+});    
+
+$('.pode').on('change', function() {
+  if(this.value>0)
+  $(".zahide").fadeOut('slow');
+  else
+  $(".zahide").fadeIn("slow");
+});
+  });   
+  
+function doda(id, tip)
+{
+//var le=$("#polje"+id+" .tex" ).length;
+$("#polje"+id ).prepend("<li class='tex' style='margin-bottom:1px;'><input type='checkbox' name='include_"+tip+"[]' value='text.php' /> text.php <a href='javascript:;' class='rem' style='color:red;float:right;'>X</a></li>");
+}   
+</script>
+
+<form method="post" action=""  enctype="multipart/form-data" class="w-100">
+<div class='row'>
+<div class="col-xl-4 col-lg-5 col-md-5 col-12">
+<b style='color:#218FBF;font-size:15px;text-transform:uppercase;display:block;'>Izaberi STRANICU za izmenu</b>
+ 
+ <link rel="stylesheet" href="ui-sortable/design1.css"/>
+<a href="javascript:;" onclick="geti()">SAČUVAJ POZICIJE STRANICA</a>
+<div id="rezu"></div>
+<script>
+function geti()
+  {
+  //alert($(".spacer").html())
+  //x = new Array();
+  var ar="";
+$('.spacer  li').each(function(i)
+{
+var offset = $(this).offset();
+//nova=(Math.round(offset.left)-972)/70;
+nova=Math.round(offset.left);
+ //alert("nova1:" + Math.round(offset.left));
+v1=$(this).attr('id');
+if(nova<417)
+ar +="###"+v1;
+$(this).children('ul').children('li').each(function(i)
+{
+var offset1 = $(this).offset();
+//nova1=(Math.round(offset1.left)-972)/70;
+nova1=Math.round(offset1.left);
+var pp=$(this).parent("ul").parent("li").attr('id');
+if(nova1<451)
+ar +="###"+pp+"-"+$(this).attr('id');
+//alert(pp+"-"+$(this).attr('id'));
+$(this).children('ul').children('li').each(function(i)
+{
+var offset2 = $(this).offset();
+//nova2=(Math.round(offset2.left)-972)/70;
+nova2=Math.round(offset2.left);
+var pp1=$(this).parent("ul").parent("li").attr('id');
+if(nova2<490)
+ar +="###"+pp+"-"+pp1+"-"+$(this).attr('id');
+//alert(pp+"-"+pp1+"-"+$(this).attr('id'));
+$(this).children('ul').children('li').each(function(i)
+{
+var offset3 = $(this).offset();
+//nova3=(Math.round(offset3.left)-972)/70;
+nova3=Math.round(offset3.left);
+var pp2=$(this).parent("ul").parent("li").attr('id');
+if(nova3==3)
+ar +="###"+pp+"-"+pp1+"-"+pp2+"-"+$(this).attr('id');
+//alert(pp+"-"+pp1+"-"+pp2+"-"+$(this).attr('id'));
+});
+});
+});
+});
+//alert(ar);
+$.ajax({
+type: "POST",
+//dataType: "json",
+url: "http://localhost/amav2/admin/save_page_position.php",
+data: {ara:ar},
+cache: false,
+success: function(datas){ 
+$('#rezu').html("Pozicije su sačuvane!");
+}
+});
+}
+</script>
+<ul class='space first-space spacer zapaste' id='space1' style='margin-top:-30px;'>
+    <li class='route' id="1">
+    <a href='http://localhost/amav2/admin/index.php?base=admin&page=page_add&id=1&id_cat=0' style='position:absolute;left:2px;top:5px;z-index:100000;'>  <i class="fas fa-pencil-alt"></i></a>
+        <input type="checkbox" value='1' class='ovor' style='position:absolute;right:2px;top:7px;z-index:100000;' checked />
+      <h3 class='title' id='title1'>Naslovna</h3>
+      <span class='ui-icon ui-icon-arrow-4-diag'></span>
+      <ul class='space' id='space2'>
+       
+      </ul>
+    </li>                      
+    <li class='route' id="52">
+    <a href='http://localhost/amav2/admin/index.php?base=admin&page=page_add&id=52&id_cat=0' style='position:absolute;left:2px;top:5px;z-index:100000;'>  <i class="fas fa-pencil-alt"></i></a>
+        <input type="checkbox" value='52' class='ovor' style='position:absolute;right:2px;top:7px;z-index:100000;' checked />
+      <h3 class='title' id='title1'>Stranica prva</h3>
+      <span class='ui-icon ui-icon-arrow-4-diag'></span>
+      <ul class='space' id='space2'>
+       
+      </ul>
+    </li>                      
+    <li class='route' id="53">
+    <a href='http://localhost/amav2/admin/index.php?base=admin&page=page_add&id=53&id_cat=0' style='position:absolute;left:2px;top:5px;z-index:100000;'>  <i class="fas fa-pencil-alt"></i></a>
+        <input type="checkbox" value='53' class='ovor' style='position:absolute;right:2px;top:7px;z-index:100000;' checked />
+      <h3 class='title' id='title1'>Stranica druga</h3>
+      <span class='ui-icon ui-icon-arrow-4-diag'></span>
+      <ul class='space' id='space2'>
+       
+      </ul>
+    </li>                      
+    <li class='route' id="54">
+    <a href='http://localhost/amav2/admin/index.php?base=admin&page=page_add&id=54&id_cat=0' style='position:absolute;left:2px;top:5px;z-index:100000;'>  <i class="fas fa-pencil-alt"></i></a>
+        <input type="checkbox" value='54' class='ovor' style='position:absolute;right:2px;top:7px;z-index:100000;' checked />
+      <h3 class='title' id='title1'>Stranica treća</h3>
+      <span class='ui-icon ui-icon-arrow-4-diag'></span>
+      <ul class='space' id='space2'>
+       
+      </ul>
+    </li>                      
+    <li class='route' id="55">
+    <a href='http://localhost/amav2/admin/index.php?base=admin&page=page_add&id=55&id_cat=0' style='position:absolute;left:2px;top:5px;z-index:100000;'>  <i class="fas fa-pencil-alt"></i></a>
+        <input type="checkbox" value='55' class='ovor' style='position:absolute;right:2px;top:7px;z-index:100000;' checked />
+      <h3 class='title' id='title1'>Stranica četvrta</h3>
+      <span class='ui-icon ui-icon-arrow-4-diag'></span>
+      <ul class='space' id='space2'>
+       
+      </ul>
+    </li>                      
+    <li class='route' id="56">
+    <a href='http://localhost/amav2/admin/index.php?base=admin&page=page_add&id=56&id_cat=0' style='position:absolute;left:2px;top:5px;z-index:100000;'>  <i class="fas fa-pencil-alt"></i></a>
+        <input type="checkbox" value='56' class='ovor' style='position:absolute;right:2px;top:7px;z-index:100000;' checked />
+      <h3 class='title' id='title1'>Stranica peta</h3>
+      <span class='ui-icon ui-icon-arrow-4-diag'></span>
+      <ul class='space' id='space2'>
+       
+      </ul>
+    </li>                      
+    <li class='route' id="17">
+    <a href='http://localhost/amav2/admin/index.php?base=admin&page=page_add&id=17&id_cat=0' style='position:absolute;left:2px;top:5px;z-index:100000;'>  <i class="fas fa-pencil-alt"></i></a>
+        <input type="checkbox" value='17' class='ovor' style='position:absolute;right:2px;top:7px;z-index:100000;' checked />
+      <h3 class='title' id='title1'>Kontakt</h3>
+      <span class='ui-icon ui-icon-arrow-4-diag'></span>
+      <ul class='space' id='space2'>
+       
+      </ul>
+    </li>                      
+</ul>
+
+<script type='text/javascript' src="ui-sortable/responder.js"></script>              
+</div>
+
+<div class="col-xl-8 col-lg-7 col-md-7 col-12">
+ <div class='ui-tabs-panel ipad d-none'>
+ <select name='id_parent' class='selecte w-100'> 
+ <option value='0'>Izaberite parent stranu</option>
+<option value="52" >Stranica prva</option>
+<option value="53" >Stranica druga</option>
+<option value="54" >Stranica treća</option>
+<option value="55" >Stranica četvrta</option>
+<option value="56" >Stranica peta</option>
+<option value="17" >Kontakt</option>
+</select>		
+</div> 
+ 
+<div class="ui-tabs">
+<ul class="ui-tabs-nav d-none">
+<li><a href="#tabs-27">rs</a></li>
+</ul>
+  <div id="tabs-27" class="ui-tabs-panel">
+ 
+<table class='w-100' cellspacing='10' cellpadding='0'>
+ <tr>
+ <td>
+Naziv u linku<br />
+<input type="text" value="Naslovna" name='nazivrs' class='selecte' /> 
+ </tr>
+ <tr>
+ <td>
+Link stranice<br />
+<input type="text" value="" name='ulinkrs' class='selecte' /> 
+ </tr>
+ <tr>
+ <td>
+Title stranice<br />
+<input type="text" value="Title za naslovnu stranicu" name='titlers' class='selecte' /> 
+ </tr>
+ <tr>
+ <td>
+Description stranice<br />
+<input type="text" value="Description za naslovnu stranicu" name='descriptionrs' class='selecte' /> 
+ </tr>
+  </table>
+	</div>
+</div>   
+
+ <br class='clear' /><br />
+<div class='ui-tabs-panel ipad'> 
+  <table class='w-100' class='forma-lista' cellspacing='10' cellpadding='0'>
+ <tr>
+  <td>
+ Ikona za MENI: <br /><input type='text' name='class_for_icon' class='selecte' style='width:200px;' value='<i class="fas fa-home"></i>' />
+ </td>
+ <td>
+ <!--
+ Naziv CSS klase za SECTION: <br /><input type='text' name='class_for_icon1' class='selecte' style='width:200px;' value='' />
+ -->
+ </td>
+ 
+ <td>
+ <!--
+ Tabela / uslov: <br /><input type='text' name='tabela_za_brojanje' class='selecte' style='width:150px;' value='' />
+ -->
+ </td>
+<td class='pl-10 d-none'>
+Slika: 
+<br /> 
+  <input type="file" class="file_input_div1"  id="avatar" name='slika' style='width:180px;' />
+</td>
+<td>
+</td>
+</tr>
+</table> 
+</div>
+ 
+<br class='clear'><br>
+<div class='ui-tabs-panel ipad'>
+<span>Model prikaza</span>
+<select name="model" class='selecte'> 
+<option value='0'> -------- </option>                 
+<option value="5"  selected>Naslovna</option>
+<option value="24"  >Kontakt</option>
+<option value="80"  >Stranica prva</option>
+<option value="84"  >Stranica druga</option>
+</select><br><br>
+ <!--
+<span>Koristi ovaj model prikaza za detaljan prikaz upisa (teksta)</span>
+<select name="model1" class='selecte'> 
+<option value='0'> -------- </option>                 
+<option value="5"  >Naslovna</option>
+<option value="24"  >Kontakt</option>
+<option value="80"  >Stranica prva</option>
+<option value="84"  >Stranica druga</option>
+</select><br><br>
+-->
+</div>
+<div style="padding-top:15px;">
+
+ <div style='float:right;'>
+<!--
+<label><input type='checkbox' name='show_for_users' value='1'  /> Prikazi ovu stranicu samo logovanim korisnicima</label>
+-->
+<input type='submit' name='izmena_stranice' class="submit_dugmici_blue" value='Izmeni stranicu' />
+</div>
+<input type='submit' onclick="delme('1'); return false;" name='novi_upis_change' class="float-left submit_dugmici_blue d-none" value='Obrisi ovu stranicu'>
+</div>
+</div>
+
+</form>
+
+ <div style='display:none'>
+	<div id='inline_content' style='padding:10px; background:#fff;'> 
+      <form method="post" action="">
+<br />
+   <div class='ui-tabs-panel ipad d-none'>
+ <select name='id_parent' class='selecte w-100'> 
+ <option value='0'>Izaberite parent stranu</option>
+              
+                      <option value="1" >Naslovna</option>
+						         	 <option value="52" >Stranica prva</option>
+						         	 <option value="53" >Stranica druga</option>
+						         	 <option value="54" >Stranica treća</option>
+						         	 <option value="55" >Stranica četvrta</option>
+						         	 <option value="56" >Stranica peta</option>
+						         	 <option value="17" >Kontakt</option>
+						         	 </select>		
+</div>
+ <div class="ui-tabs">
+ <!--
+	<ul class="ui-tabs-nav">
+<li><a href="#tabsa-27">rs</a></li>
+	</ul>
+-->
+  	<div id="tabsa-27" class="ui-tabs-panel">
+ <table class='w-100' cellspacing='0' cellpadding='0'>
+   <tr>
+ <td>
+ Naziv u linku<br>
+  <input type="text" name='nazivrs' class='selecte' style='' />
+ </td>
+ </tr>
+  <tr>
+ <td>
+ Title stranice<br>
+  <input type="text" name='titlers' class='selecte' style='' />
+ </td>
+ </tr>
+  <tr>
+ <td>
+ Description stranice<br>
+  <input type="text" name='descriptionrs' class='selecte' style='' />
+ </td>
+ </tr>
+  </table>
+ </div>
+</div>
+<br>
+<input type='submit' name='save_stranice' class="submit_dugmici_blue" value='Dodaj novu stranicu'>
+
+</div>
+ </div>	
+</div>
+</form>
+
+ </div>
+ </div>
+</div>
+<div id="footer_down">
+<div class="container-fluid">
+<ul><li>© Copyright 2020</li></ul>
+</div>
+</div>
+<script src="../js/bootstrap.min.js"></script>
+ </body>
+</html>
