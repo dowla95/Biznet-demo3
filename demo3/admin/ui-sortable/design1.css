@@ -1,0 +1,5 @@
+.containerZ {position:relative;padding-bottom:10px;min-height:500px;background:#eee;}.route {position:relative;list-style-type:none;border:0;margin:0;padding:0;top:0px;margin-top:0px;max-height: 100% !important;width:120%;background:#bcf; z-index: -1;}.route span {position: absolute;top: 7px;left: 20px;width:200px;-ms-transform: scale(2);/* IE 9 */-webkit-transform: scale(2);/* Chrome, Safari, Opera */transform: scale(2);z-index: 10px;}
+.route .title {position: absolute;border: 0;margin: 0;padding: 0;font-size:15px;width:280px;height:25px;  text-indent: 40px;background: #4af;display:block;border-radius: 2px;box-shadow: 0px 0px 0px 2px #29f;pointer-events: none;}.route a {color:#ff0000;font-size:15px;}
+.first-title { margin-left: 0px;}
+.space {position: relative;list-style-type: none;border: 0;margin: 0;padding: 0;margin-left: 35px;width: 30px;top: 32px;padding-bottom: 32px;height: 100%;z-index: 1;}
+.first-space { margin-left: 0px;}
