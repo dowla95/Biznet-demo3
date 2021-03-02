@@ -1,0 +1,21 @@
+<?php
+$arrwords['pogresan_kod']='KOD koji ste upisali je pogrešan!';
+$arrwords['poslata_poruka']='Poruka je uspešno poslata, kontaktiraćemo Vas u najskorijem vremenu!';
+$arrwords['unesi_email_adresu']='Ovde upišite svoju email adresu';
+$arrwords['vise_oovome']='Opširnije';
+$arrwords['email_novalid']='E-mail adresa nije validna!';
+$arrwords['email_postoji']='E-mail koji ste uneli već postoji u našoj bazi!';
+$arrwords['niste_ispunili']='Niste ispunili sva polja označena zvezdicom!';
+$arrwords['niste_ispunili1']='Niste ispunili sva polja!';
+$langa['messag'][15] = 'Vaša poruka je poslata uspešno!';
+$arrwords2['adresa']='Adresa:';
+$arrwords2['prijava']='Prijava';
+$arrwords['pretraga']='Pretraga testova na sajtu';
+$arrwords['pojam_pretrage']='Unesite reč ili reči koje tražite.';
+$arrwords2['nova_sifra']='Informacije o izmeni šifre su poslate na Vaš email!';
+$arrwords2['password1']='Ponovi lozinku';
+$arrwords2['sifre_nejednake']='Prva i druga lozinka nisu jednake!';
+$arrwords2['nova_sifra2']='Izmena šifre';
+$arrwords2['nova_sifra3']='Iz nekog nepoznatog razloga pokušaj resetovanja lozinke nije uspeo! Molimo Vas pokušajte ponovo.';
+$arrwords2['nova_sifra5']='Poštovani %s,<br>Prema Vašem zahtevu, šaljemo Vam link za kreiranje nove šifre: <b><i>%s</i></b> nakon čega se možete ulogovati na našem sajtu: <a href=\'%s\'>%s</a><br><br><b>Napomena:</b><br>Ovo je automatski generisana poruka, NEMOJTE odgovarati na nju!';
+$arrwords2['registracija_uspesna']='Vaša registracija je uspešno završena. Ostalo je još da kliknete na aktivacioni link koji smo Vam poslali na Vaš email!';
